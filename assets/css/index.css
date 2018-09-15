@@ -1,0 +1,67 @@
+html, body {
+	height: 99%;
+	width: 99%;
+	margin: 0 auto;
+	padding-top: 10px
+
+}
+
+#landingPage {
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	border: 3px solid black;
+
+}
+
+#navbar {
+	display: none;
+}
+
+
+.welcome{
+	color: white;
+	float: right; 
+}
+.welcomeTitle {
+	font-family: 'obake_free_ver.regular';
+	font-size: 180px;
+	color: white;
+	text-shadow: 1px 1px 15px #000;
+
+}
+
+.welcomeText {
+	font-size: 2em;
+	width: 45%;
+	text-align: right;
+ }
+
+.inTouch {
+	background: transparent;
+	border: 1px solid white;
+	box-shadow: 1px 1px 15px #000;
+	text-shadow: 1px 1px 15px #000;
+	font-size: 400%;
+	border-radius: 8px;
+	color: white;
+	font-family: "obake_free_ver.regular";
+	float: right;
+
+}
+
+.padding {
+	padding: 30px;
+}
+
+.fa-envelope {
+	vertical-align: middle;
+
+}
+
+hr {
+	margin: 5px;
+}
+
+
