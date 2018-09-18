@@ -1,0 +1,32 @@
+.landingPage {
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	height: 100%;
+	color: $white;
+	text-align: center;
+
+	.welcomeTitle {
+		font-family: $landing-font;
+		font-size: 160px;
+		text-shadow: 1px 1px 15px #000;
+		padding-top: 21%;
+		padding-left: 15px;
+	}
+
+	.landingArrow {
+		border: none;
+		text-shadow: 1px 1px 15px #000;
+		font-size: 400%;
+		color: white;
+		&:hover {
+			text-shadow: 0px 0px 5px teal;
+		}
+
+	}
+
+}
+
+
+
+
+
