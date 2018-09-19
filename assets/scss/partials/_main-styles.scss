@@ -1,7 +1,65 @@
 html, body {
 	height: 100%;
-
-
-	
-
 }
+
+h2 {
+	font-size: 6vh;
+}
+
+
+.fa-code {
+	color: #e54d26;
+}
+.fa-bold {
+	color: #563d7c;
+}
+.fa-css3 {
+	color: #2163af;
+}
+.fa-js-square {
+	color: #f7df1e;
+}
+.fa-wordpress-simple {
+	color: #21759b;
+}
+.fa-facebook {
+	color: #3b5998;
+}
+.fa-instagram {
+	color: #517fa8;
+}
+
+.fa-github {
+	color: #6e5494;
+}
+
+.fa-free-code-camp {
+	color: #006400;
+}
+
+.fa-linkedin {
+	color: #00a0dc;
+}
+
+.fa-envelope {
+	color: #004d73;
+}
+
+.icons {
+	font-size: $icon-size;
+}
+
+a {
+	.icons {
+		&:hover {
+			opacity: 0.5;
+		}
+	}
+}
+
+.padding {
+	padding: 2% 0 2% 0;
+}
+
+
+

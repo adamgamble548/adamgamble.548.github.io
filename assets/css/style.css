@@ -2,6 +2,66 @@ html, body {
   height: 100%;
 }
 
+h2 {
+  font-size: 6vh;
+}
+
+.fa-code {
+  color: #e54d26;
+}
+
+.fa-bold {
+  color: #563d7c;
+}
+
+.fa-css3 {
+  color: #2163af;
+}
+
+.fa-js-square {
+  color: #f7df1e;
+}
+
+.fa-wordpress-simple {
+  color: #21759b;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-instagram {
+  color: #517fa8;
+}
+
+.fa-github {
+  color: #6e5494;
+}
+
+.fa-free-code-camp {
+  color: #006400;
+}
+
+.fa-linkedin {
+  color: #00a0dc;
+}
+
+.fa-envelope {
+  color: #004d73;
+}
+
+.icons {
+  font-size: 400%;
+}
+
+a .icons:hover {
+  opacity: 0.5;
+}
+
+.padding {
+  padding: 2% 0 2% 0;
+}
+
 .landingPage {
   background-image: url(images/background.jpg);
   background-size: cover;
@@ -19,15 +79,23 @@ html, body {
 .landingPage .landingArrow {
   border: none;
   text-shadow: 1px 1px 15px #000;
-  font-size: 400%;
   color: white;
+  font-size: 400%;
 }
 .landingPage .landingArrow:hover {
-  text-shadow: 0px 0px 5px teal;
+  text-shadow: 0px 0px 5px black;
+  opacity: 0.9;
 }
 
 #navbar {
   display: none;
+}
+
+#myStorySection {
+  width: 80%;
+}
+#myStorySection h2 {
+  font-size: 6vh;
 }
 
 /*# sourceMappingURL=style.css.map */
