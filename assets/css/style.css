@@ -1,9 +1,3 @@
-.contactButtonBox {
-  transition: 2s;
-  border: 2px solid red;
-  margin-bottom: -2px;
-}
-
 html, body {
   height: 100%;
 }
@@ -111,6 +105,13 @@ a .icons:hover {
   border-bottom: 0.5px solid #afafaf;
   font-size: 1rem;
 }
+.navbar .navbar-brand {
+  border-bottom: 1px solid #84fab0;
+  transition: 1s;
+}
+.navbar .navbar-brand:hover {
+  border-bottom: 1px solid #84fab0;
+}
 .navbar .navbar-nav {
   padding-right: 20px;
 }
@@ -119,8 +120,13 @@ a .icons:hover {
   transition: 1s;
 }
 .navbar .navbar-nav .nav-link:hover {
-  border-bottom: 1px solid skyBlue;
+  border-bottom: 1px solid #84fab0;
   margin-bottom: -1px;
+}
+
+#contactMeButton {
+  border: 1px solid #84fab0;
+  margin-left: 10px;
 }
 
 #myStorySection {
@@ -143,6 +149,10 @@ a .icons:hover {
 
 #aboutMeSection {
   width: 80%;
+}
+
+.aboutMeContent {
+  padding: 5% 0 0 0;
 }
 
 .contactMe {

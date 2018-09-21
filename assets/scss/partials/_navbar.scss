@@ -3,6 +3,13 @@
 	background-color: white;
 	border-bottom: 0.5px solid #afafaf;
 	font-size: 1rem;
+	.navbar-brand {
+		border-bottom: 1px solid #84fab0; 
+		transition: 1s;
+		&:hover {
+			border-bottom: 1px solid #84fab0;
+		}
+	}
 
 	.navbar-nav {
 		padding-right: 20px;
@@ -10,9 +17,14 @@
 			color: black;
 			transition: 1s;
 			&:hover {
-				border-bottom: 1px solid skyBlue;
+				border-bottom: 1px solid #84fab0;
 				margin-bottom: -1px;
 			}
 		}
 	}
+}
+
+#contactMeButton {
+	border: 1px solid #84fab0;
+	margin-left: 10px
 }
