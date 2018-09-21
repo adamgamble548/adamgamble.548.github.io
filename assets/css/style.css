@@ -1,8 +1,15 @@
+.contactButtonBox {
+  transition: 2s;
+  border: 2px solid red;
+  margin-bottom: -2px;
+}
+
 html, body {
   height: 100%;
 }
 html h2, body h2 {
   font-size: 5vh;
+  font-family: "Doppio One";
 }
 
 .fa-code {
@@ -43,6 +50,10 @@ html h2, body h2 {
 
 .fa-linkedin {
   color: #00a0dc;
+}
+
+.fi-social-treehouse {
+  color: #4fd665;
 }
 
 .fa-envelope {
@@ -96,17 +107,38 @@ a .icons:hover {
 
 .navbar {
   padding: 1%;
+  background-color: white;
+  border-bottom: 0.5px solid #afafaf;
+  font-size: 1rem;
 }
 .navbar .navbar-nav {
   padding-right: 20px;
 }
 .navbar .navbar-nav .nav-link {
   color: black;
-  font-size: 125%;
+  transition: 1s;
+}
+.navbar .navbar-nav .nav-link:hover {
+  border-bottom: 1px solid skyBlue;
+  margin-bottom: -1px;
 }
 
 #myStorySection {
   width: 80%;
+}
+
+.lead a {
+  font-size: 3vh;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 20%;
+  background-position: 0 88%;
+  transition: 0.5s;
+  text-decoration: none;
+  color: black;
+}
+.lead a:hover {
+  background-size: 100% 88%;
 }
 
 #aboutMeSection {

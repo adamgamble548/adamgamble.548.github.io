@@ -106,27 +106,21 @@ arrowDown.on("click", function() {
 /*--------Navbar Show Function---------------*/
 /*-------------------------------------------*/
 
-(function ($) {
-  $(document).ready(function(){
 
-    // hide .navbar first
-    $(".navbar").hide();
-
-    // fade in .navbar
-    $(function () {
-        $(window).scroll(function () {
-
-                 // set distance user needs to scroll before we start fadeIn
-            if ($(this).scrollTop() > myStoryBottom) {
-                $('.navbar').fadeIn();
-            } else {
-                $('.navbar').fadeOut();
-            }
-        });
+$(document).ready(function(){
+	// hide .navbar first
+	$(".navbar").hide();
+	// fade in .navbar
+    $(window).scroll(function () {
+        // set distance user needs to scroll before we start fadeIn
+        if ($(this).scrollTop() > myStoryBottom) {
+            $('.navbar').fadeIn();
+        } else {
+            $('.navbar').fadeOut();
+        }
     });
-
 });
-  }(jQuery));
+
 
 
 /*-------------------------------------------*/

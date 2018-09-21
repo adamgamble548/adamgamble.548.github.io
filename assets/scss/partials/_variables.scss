@@ -1,8 +1,14 @@
 $white: white;
 
 $landing-font: "obake_free_ver.regular";
-$secondary-font: 'Raleway';
+$secondary-font: 'Doppio One';
 
 $icon-size: 500%;
 
 $padding: 5% 0 5% 0;
+
+.contactButtonBox {
+	transition: 2s;
+	border: 2px solid red;
+	margin-bottom: -2px;
+}

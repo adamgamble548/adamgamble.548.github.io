@@ -1,7 +1,8 @@
 html, body {
 	height: 100%;
 	h2 {
-		font-size: 5vh
+		font-size: 5vh;
+		font-family: $secondary-font;
 	}
 }
 
@@ -26,19 +27,18 @@ html, body {
 .fa-instagram {
 	color: #517fa8;
 }
-
 .fa-github {
 	color: #6e5494;
 }
-
 .fa-free-code-camp {
 	color: #006400;
 }
-
 .fa-linkedin {
 	color: #00a0dc;
 }
-
+.fi-social-treehouse {
+	color: #4fd665;
+}
 .fa-envelope {
 	color: #004d73;
 }
@@ -46,7 +46,6 @@ html, body {
 .icons {
 	font-size: $icon-size;
 }
-
 a {
 	.icons {
 		&:hover {
@@ -66,5 +65,6 @@ a {
 .thick {
 	border-top: 2px solid #b4b4b4
 }
+
 
 

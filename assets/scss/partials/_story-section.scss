@@ -1,4 +1,19 @@
 #myStorySection {
 	width: 80%;
+}
 
+.lead {
+	a {
+		font-size: 3vh;
+		background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+		background-repeat: no-repeat;
+		background-size: 100% 20%;
+		background-position: 0 88%;
+		transition: 0.5s;
+		text-decoration: none;
+		color: black;
+		&:hover {
+			background-size: 100% 88%;
+		}
+	}
 }
