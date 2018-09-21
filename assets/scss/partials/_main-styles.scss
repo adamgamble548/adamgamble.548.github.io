@@ -1,11 +1,9 @@
 html, body {
 	height: 100%;
+	h2 {
+		font-size: 5vh
+	}
 }
-
-h2 {
-	font-size: 6vh;
-}
-
 
 .fa-code {
 	color: #e54d26;
@@ -58,8 +56,15 @@ a {
 }
 
 .padding {
-	padding: 2% 0 2% 0;
+	padding: $padding;
 }
 
+.short {
+	width: 80%;
+}
+
+.thick {
+	border-top: 2px solid #b4b4b4
+}
 
 

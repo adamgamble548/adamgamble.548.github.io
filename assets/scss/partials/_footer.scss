@@ -1,0 +1,26 @@
+.contactMe {
+	padding-bottom: 3%;
+	a {
+		padding: 1% 2% 0 2%;
+	}
+}
+
+.emailBox {
+	display: none;
+	width: 40%;
+	padding-bottom: 3%;
+	textarea {
+		height: 15vh;
+	}
+
+}
+
+footer {
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+	padding: $padding;
+	hr {
+		border-top: 1px solid #d5d5d5;
+		width: 70%;
+	}
+}

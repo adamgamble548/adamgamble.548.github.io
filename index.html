@@ -4,13 +4,15 @@
 
 	<title>Work with Adam</title>
 
-	<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+
 	<link rel="stylesheet" type="text/css" href="assets/css/libs/bootstrap.min.css">
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/fonts/stylesheet.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
 
 </head>
 <body>
@@ -18,13 +20,13 @@
 <!-- Navbar / Header / Landing Page-->
 
 
-<article  class="landingPage">
+<article  class="landingPage" id="landingPage">
 
 	<header>
-		<nav class=" navbar navbar-light navbar-expand-md bg-light" id="navbar">
+		<nav class=" navbar navbar-light navbar-expand-md bg-light fixed-top" id="navbar">
 			<div class="container-fluid">
 				<a href="#" class="navbar-brand"><i class="fas fa-terminal"></i> Adam Gamble</a>
-				<button class="navbar-toggaler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 				<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarResponsive">
@@ -34,7 +36,7 @@
 						</li>
 
 						<li class="nav-item">
-							<a href="#" class="nav-link" id="portfolioButton">Portfolio</a>
+							<a href="#" class="nav-link" id="myPortfolioButton">Portfolio</a>
 						</li>
 						<li class="nav-item">
 							<a href="#" class="nav-link" id="aboutMeButton">About Me</a>
@@ -52,7 +54,7 @@
 		<div class="row">
 			<div class="col-12" >
 				<h1 class="welcomeTitle welcome">Adam Gamble</h1>
-				<a href="#" class="landingArrow icons"><i class="fas fa-arrow-down"></i></a>
+				<a href="#" class="landingArrow icons" id="arrowDown"><i class="fas fa-arrow-down"></i></a>
 			</div>
 
 		</div>
@@ -66,7 +68,7 @@
 	<div class="row text-center">
 		<div class="col-12">
 			<h2>My Web Development Story</h2>
-			<hr>
+			<hr class="thick">
 			<p class="lead">
 				After leaving my previous job, I travelled through South East Asia for 9 months before finally coming to the Netherlands to settle. For a long time, while I was still under employment, I realised that I was in search for a new career venture in my life. A career with exciting prospects, and a ever changing world that would continuously fuel my thirst for growth. This search led me to coding! I started my journey watching Youtube videos on basic HTML skills and CSS, and my now favourite dev blog <a href="http://blog.teamtreehouse.com/" target="_blank">Team Treehouse</a>. From those soures I built some pretty solid foundations. I then moved onto a Udemy course taught by Colt Steele, named <a href="https://www.udemy.com/courses/search/?q=web%20developer%20bootcamp&src=ukw">Full Stack Development Bootcamp</a>, this helped solidify the knowledge I gained early on and gave me a much better and thorough explanation of those topics. Not only that, it also brought me further into my journey by teaching me basic Javascript and jQuery. 
 			</p>
@@ -94,7 +96,7 @@
 		<div class="col-xs-12 col-sm-4">
 			<i class="fab fa-css3 icons"></i>
 			<h4>CSS3</h4>
-			<p>CSS3 Skills</p>
+			<p>This project was created with SASS</p>
 		</div>
 		<div class="col-xs-12 col-sm-6">
 			<i class="fab fa-js-square icons"></i>
@@ -107,7 +109,7 @@
 			<p>Freelance projects with Wordpress</p>
 		</div>
 		<div class="col-12">
-			<hr>
+			<hr class="short">
 		</div>
 	</div>
 </section>
@@ -116,11 +118,11 @@
 
 <!-- Portfolio -->
 
-<section class="container-fluid" id="portfolioSection">
+<section class="container-fluid padding" id="myPortfolioSection">
 	<div class="row text-center">
 		<div class="col-12">
 			<h2>Portfolio</h2>
-			<hr>
+			<hr class="short thick">
 		</div>
 		<div class="col-12">
 			<h3>Take a look at my most recent work :)</h3>
@@ -130,7 +132,7 @@
 
 <section class="container-fluid">
 	<div class="row text-center">
-		<div class="col-md-4">
+		<div class="col-md-4 align-items-stretch d-flex">
 			<div class="card">
 				<img src="assets/css/images/colorgame.png" class="card-img-top">
 				<div class="card-body">
@@ -140,7 +142,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-4 align-items-stretch d-flex">
 			<div class="card">
 				<img src="assets/css/images/RJJA.jpg" class="card-img-top">
 				<div class="card-body">
@@ -150,18 +152,18 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-4 align-items-stretch d-flex">
 			<div class="card">
-				<img src="assets/css/images/build3.jpg" class="card-img-top">
+				<img src="assets/css/images/portfolio.png" class="card-img-top">
 				<div class="card-body">
-					<h3 class="card-title">N/A</h3>
-					<p class="card-text">Work in progress!</p>
-					<a href="#" class="btn btn-outline-secondary disabled">Visit Project</a>
+					<h3 class="card-title">This Portfolio Site!</h3>
+					<p class="card-text">This site was coded from scratch. I used HTML, SASS for a CSS preprocessor, and jQuery. The site is updated regularily when I learn something new, and find a way to implement it.</p>
+					<a href="https://adamgamble548.github.io" target="_blank" class="btn btn-outline-secondary">Visit Project</a>
 				</div>
 			</div>
 		</div>
-		<div class="col-12">
-			<h3>Also take a look at my Github, Free Code Camp or my LinkedIn profiles!</h3>
+		<div class="col-12 padding">
+			<h3>Also take a look at my Github, Free Code Camp and LinkedIn profiles!</h3>
 		</div>
 		<div class="col-xs-12 col-sm-4">
 			<a href="https://github.com/adamgamble548" target="_blank"><i class="fab fa-github icons"></i></a>
@@ -176,12 +178,12 @@
 			<h4>LinkedIn</h4>
 		</div>
 	</div>
-	<hr>
+	<hr class="short thick">
 </section>
 
 <!-- About Me Section -->
 
-<section class="container-fluid">
+<section class="container-fluid padding" id="aboutMeSection">
 	<div class="row">
 		<div class="col-12">
 			<h2>About Me</h2>
@@ -200,20 +202,43 @@
 			<img class="img-fluid" src="assets/css/images/batur.jpg">
 		</div>
 	</div>
-	<hr>
 </section>
+<hr>
 
 <!--Contact Me -->
 
-<section class="container-fluid">
+<section class="container-fluid contactMe" id="contactMeSection">
 	<div class="row text-center">
 		<div class="col-12">
 			<h2>Contact Me</h2>
 		</div>
 		<div class="col-12">
 			<a href="https://www.facebook.com/adam.gamble.50"><i class="fab fa-facebook icons"></i></a>
-			<a href="#/"><i class="fas fa-envelope icons"></i></a>
+			<a href="#/" class="emailButton"><i class="fas fa-envelope icons"></i></a>
 			<a href="https://www.instagram.com/adamgamble1/"><i class="fab fa-instagram icons"></i></a>
+		</div>
+	</div>
+</section>
+
+<section class="container-fluid emailBox">
+	<div class="row text-center">
+		<div class="col-12">
+			<form action="post">
+				<div class="form-group">
+					<label for="emailInput">Email: </label>
+					<input type="email" name="emailInput" id="emailInput" placeholder="JoeBloggs@example.com" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="nameInput">Full Name: </label>
+					<input type="text" name="nameInput" id="nameInput" placeholder="Joe Bloggs" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="messageInput">How can I help?</label>
+					<textarea class="form-control" id="messageInput" placeholder="Hey Adam! Your an amazing developer, and I'd love to work with you! How can we get the ball rolling?"></textarea>
+				</div>
+				<button class="btn btn-primary" type="submit">Send! <i class="far fa-paper-plane"></i></button>
+
+			</form>
 		</div>
 	</div>
 </section>
@@ -223,12 +248,14 @@
 	<div class="row text-center">
 		<div class="col-md-6 col-xs-12">
 			<h4>Contact Info <i class="far fa-address-book"></i></h4>
-			<p><strong>Email Address: </strong><i class="far fa-envelope"></i> adamgamble.548@gmail.com</p>
+			<hr>
+			<p><strong>Email Address: </strong><a href="#/" class="emailButton"><i class="far fa-envelope"></i></a> adamgamble.548@gmail.com</p>
 			<p><strong>Currently based in: </strong><a href="https://www.google.com/maps/place/Nijmegen/@51.8428621,5.8331567,11z/data=!3m1!4b1!4m5!3m4!1s0x47c70867931be381:0xa48c71c89f257eac!8m2!3d51.8125626!4d5.8372264"><i class="fas fa-map-marker-alt"></i></a> Nijmegen, Netherlands</p>
 			<p><strong>Origin: </strong><a href="https://www.google.com/maps/place/Sunderland,+UK/@54.8956613,-1.4060824,11z/data=!3m1!4b1!4m5!3m4!1s0x487e612d8af0739f:0x749d6e7d017f03c3!8m2!3d54.906869!4d-1.383801"><i class="fas fa-globe"></i></a> Sunderland, United Kingdom</p>
 		</div>
 		<div class="col-md-6 col-xs-12">
 			<h4>Contactable Hours <i class="fas fa-inbox"></i></h4>
+			<hr>
 			<p>Monday/Friday: 08:00 - 18:00</p>
 			<p>Saturday: 09:00 - 15:00</p>
 			<p>Sunday: Unavailable</p>
@@ -237,6 +264,9 @@
 </footer>
 
 
+	<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/index.js"></script>
 
 </body>
 </html>
