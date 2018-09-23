@@ -306,6 +306,7 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
+  text-rendering: auto;
   text-decoration: inherit;
 }
 

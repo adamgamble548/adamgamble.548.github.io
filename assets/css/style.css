@@ -53,6 +53,14 @@ html h4, body h4 {
   color: #00a0dc;
 }
 
+.moveUpIcon {
+  margin-top: -15px;
+}
+
+.moveUpText {
+  margin-top: -24px;
+}
+
 .fi-social-treehouse {
   color: #4fd665;
 }
@@ -79,6 +87,15 @@ a .icons:hover {
 
 .thick {
   border-top: 2px solid #b4b4b4;
+}
+
+.fa-chevron-up {
+  position: fixed;
+  bottom: 20;
+  right: 300;
+  z-index: 99;
+  outline: none;
+  font-size: 500%;
 }
 
 .landingPage {
@@ -125,7 +142,7 @@ a .icons:hover {
   transition: 1s;
 }
 .navbar .navbar-brand:hover {
-  border-bottom: 1px solid #fc6767;
+  border-bottom: 1px solid #84fab0;
 }
 .navbar .navbar-nav {
   padding-right: 20px;
@@ -135,7 +152,7 @@ a .icons:hover {
   transition: 1s;
 }
 .navbar .navbar-nav .nav-link:hover {
-  border-bottom: 1px solid #84fab0;
+  border-bottom: 1px solid #fc6767;
   margin-bottom: -1px;
 }
 

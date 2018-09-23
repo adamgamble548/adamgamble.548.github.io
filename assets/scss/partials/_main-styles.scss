@@ -1,6 +1,7 @@
 html, body {
 	height: 100%;
 	font-family: $secondary-font;
+	
 
 	h2 {
 		font-size: 5vh;
@@ -46,6 +47,15 @@ html, body {
 .fa-linkedin {
 	color: #00a0dc;
 }
+
+.moveUpIcon {
+	margin-top: -15px;
+}
+
+.moveUpText {
+	margin-top: -24px;
+}
+
 .fi-social-treehouse {
 	color: #4fd665;
 }
@@ -75,6 +85,15 @@ a {
 .thick {
 	border-top: 2px solid #b4b4b4;
 	
+}
+
+.fa-chevron-up {
+	position: fixed;
+	bottom: 20;
+	right: 300;
+	z-index: 99;
+	outline: none;
+	font-size: 500%;
 }
 
 
