@@ -1,13 +1,14 @@
 .navbar {
+	display: none;
 	padding: 1%;
 	background-color: white;
 	border-bottom: 0.5px solid #afafaf;
 	font-size: 1rem;
 	.navbar-brand {
-		border-bottom: 1px solid #84fab0; 
+		border-bottom: 1px solid #fc6767; 
 		transition: 1s;
 		&:hover {
-			border-bottom: 1px solid #84fab0;
+			border-bottom: 1px solid #fc6767;
 		}
 	}
 
@@ -25,6 +26,6 @@
 }
 
 #contactMeButton {
-	border: 1px solid #84fab0;
+	border: 1px solid #fc6767;
 	margin-left: 10px
 }

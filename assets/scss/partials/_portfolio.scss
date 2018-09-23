@@ -1,0 +1,10 @@
+.btn-outline-secondary {
+	border-color: black;
+	color: black;
+	&:hover {
+		background-color: white;
+		box-shadow: 5px 5px #fc6767;
+		color: black;
+
+	}
+}

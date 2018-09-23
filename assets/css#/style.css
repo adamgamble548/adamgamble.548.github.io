@@ -6,12 +6,6 @@ html h2, body h2 {
   font-size: 5vh;
   font-family: "Doppio One";
 }
-html h3, body h3 {
-  font-family: "Doppio One";
-}
-html h4, body h4 {
-  font-family: "Doppio One";
-}
 
 .fa-code {
   color: #e54d26;
@@ -121,11 +115,11 @@ a .icons:hover {
   font-size: 1rem;
 }
 .navbar .navbar-brand {
-  border-bottom: 1px solid #fc6767;
+  border-bottom: 1px solid #84fab0;
   transition: 1s;
 }
 .navbar .navbar-brand:hover {
-  border-bottom: 1px solid #fc6767;
+  border-bottom: 1px solid #84fab0;
 }
 .navbar .navbar-nav {
   padding-right: 20px;
@@ -140,7 +134,7 @@ a .icons:hover {
 }
 
 #contactMeButton {
-  border: 1px solid #fc6767;
+  border: 1px solid #84fab0;
   margin-left: 10px;
 }
 
@@ -150,7 +144,7 @@ a .icons:hover {
 
 .lead a {
   font-size: 3vh;
-  background-image: linear-gradient(120deg, #ec008c 0%, #fc6767 100%);
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   background-repeat: no-repeat;
   background-size: 100% 20%;
   background-position: 0 88%;
@@ -163,15 +157,9 @@ a .icons:hover {
 }
 
 .btn-outline-secondary {
-  border-color: black;
+  border-color: #84fab0;
   color: black;
 }
-.btn-outline-secondary:hover {
-  background-color: white;
-  box-shadow: 5px 5px #fc6767;
-  color: black;
-}
-
 #aboutMeSection {
   width: 80%;
 }

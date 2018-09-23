@@ -108,8 +108,6 @@ arrowDown.on("click", function() {
 
 
 $(document).ready(function(){
-	// hide .navbar first
-	$(".navbar").hide();
 	// fade in .navbar
     $(window).scroll(function () {
         // set distance user needs to scroll before we start fadeIn

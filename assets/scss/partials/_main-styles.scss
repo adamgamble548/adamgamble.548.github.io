@@ -1,8 +1,18 @@
 html, body {
 	height: 100%;
+	font-family: $secondary-font;
+
 	h2 {
 		font-size: 5vh;
-		font-family: $secondary-font;
+		font-family: $landing-font;
+	}
+
+	h3 {
+		font-family: $landing-font;
+	}
+
+	h4 {
+		font-family: $landing-font;
 	}
 }
 
